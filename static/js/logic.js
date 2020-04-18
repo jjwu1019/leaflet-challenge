@@ -1,6 +1,6 @@
 //store api into a variable
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-var API_KEY = ""
+var API_KEY = "pk.eyJ1Ijoiamp3dTEwMTkiLCJhIjoiY2s3d2d3Z2tzMDI0bDNna2Iwa29ic25kbSJ9.bNbzCqX5wB3ISKgoQCfrEg"
 
 d3.json(queryUrl, function(data) {
   //console.log(data.features);
